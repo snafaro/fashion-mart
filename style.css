@@ -3,3 +3,292 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* header section */
+header{
+    padding: 50px 135px;
+    background: #FFFBF0;
+
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav > h3{
+    font-size: 26px;
+    color: #A4BC46;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+
+header > nav > h3 > span{
+    color: #363958;
+}
+
+header > nav > ul{
+    display: flex;
+    gap: 60px;
+}
+
+header > nav > ul > li{
+    list-style: none;
+}
+
+header > nav > ul > li > a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.banner > .ban-text > h3{
+    font-size: 80px;
+    font-weight: 400;
+    color: #FABE4C;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.banner > .ban-text > h3 > span{
+    color: #363958;
+}
+
+.banner > .ban-text > p{
+    max-width: 360px;
+    color: #3E3E3E;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn{
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    padding: 16px 40px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+
+}
+
+.banner > .ban-img > img{
+    width: 550px;
+}
+
+/* main section */
+
+main{
+    padding: 50px 135px;  
+}
+
+main > .woman{
+    margin: 50px 0 100px 0 ;
+}
+
+
+main > .woman > h3{
+    color: #363958;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main > .woman > .woman-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+main > .woman > .woman-card > .card{
+    width: 370px;
+    padding: 18px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main > .woman > .woman-card > .card > img{
+    width: 334px;
+    border-radius: 20px;
+    background: #F1F1F1;
+    padding: 20px;
+}
+
+main > .woman > .woman-card > .card > h2{
+    color: #363958;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+main > .woman > .woman-card > .card > p{
+    color: #3E3E3E;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 300px;
+
+}
+
+main > .woman > .woman-card > .card > .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+main > .woman > .woman-card > .card > .price > h2{
+    color: #FABE4C;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+main > .man{
+    margin: 100px 0 ;
+}
+
+main > .man > h3{
+    color: #363958;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+main > .man > .man-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+main > .man > .man-card > .card{
+    width: 370px;
+    padding: 18px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main > .man > .man-card > .card > img{
+    width: 334px;
+    border-radius: 20px;
+    background: #F1F1F1;
+    padding: 20px;
+}
+
+main > .man > .man-card > .card > h2{
+    color: #363958;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+main > .man > .man-card > .card > p{
+    color: #3E3E3E;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: 'Roboto', sans-serif;
+    max-width: 300px;
+
+}
+
+main > .man > .man-card > .card > .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+main > .man > .man-card > .card > .price > h2{
+    color: #FABE4C;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    padding: 50px 135px;  
+}
+
+ footer > .card-section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} 
+
+footer > .card-section > .card{
+    width: 490px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer > .card-section > .card > img{
+    width: 78px;
+
+}
+
+footer > .card-section > .card > .description > h2{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer > .card-section > .card > .description > p{
+    color: #3E3E3E;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    max-width: 276px;
+    margin-top: 14px;
+
+}
+
+footer > .img-section > img{
+    max-width: 800px;
+}
